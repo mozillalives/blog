@@ -85,7 +85,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
       ready: function(err, browserSync) {
-        const content_404 = fs.readFileSync('docs/404.html');
+        const content_404 = fs.readFileSync('_site/404.html');
 
         browserSync.addMiddleware("*", (req, res) => {
           // Provides the 404 content without redirect.
@@ -111,7 +111,7 @@ module.exports = function(eleventyConfig) {
 
     // If you don’t have a subdirectory, use "" or "/" (they do the same thing)
     // This is only used for link URLs (it does not affect your file structure)
-    // Best paired with the `url` filter: https://www.11ty.dev/docs/filters/url/
+    // Best paired with the `url` filter: https://www.11ty.dev/_site/filters/url/
 
     // You can also pass this in on the command line using `--pathprefix`
     // pathPrefix: "/",
