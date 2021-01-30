@@ -7,6 +7,4 @@ eleventyNavigation:
   order: 4
 ---
 
-## About Me
-
-## Employment History
+_working on it_

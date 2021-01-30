@@ -7,4 +7,4 @@ eleventyNavigation:
   order: 3
 ---
 
-I am a person that writes stuff.
+Web developer, father of three, fan of fantasy and sci-fi, Christian.
