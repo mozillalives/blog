@@ -111,7 +111,7 @@ module.exports = function(eleventyConfig) {
 
     // If you don’t have a subdirectory, use "" or "/" (they do the same thing)
     // This is only used for link URLs (it does not affect your file structure)
-    // Best paired with the `url` filter: https://www.11ty.dev/_site/filters/url/
+    // Best paired with the `url` filter: https://www.11ty.dev/docs/filters/url/
 
     // You can also pass this in on the command line using `--pathprefix`
     // pathPrefix: "/",
@@ -125,7 +125,7 @@ module.exports = function(eleventyConfig) {
       input: ".",
       includes: "_includes",
       data: "_data",
-      output: "docs"
+      output: "_site"
     }
   };
 };
