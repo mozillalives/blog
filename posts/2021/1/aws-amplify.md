@@ -15,3 +15,5 @@ AWS is not exactly new to me and neither are the technologies behind it (even th
 That setup time is what totally surprised me. Prior to this experience, I thought only Netlify, Firebase or maybe Heroku would have that fast return on time invested. The fact that you can do this with AWS without really sacrificing all the modularity is incredible.
 
 I've never been a big fan of AWS. I've always been fond of other cloud services like Google's App Engine or Digital Ocean's Droplets and other services. But even I have to admit that with features like this, it's really hard to make arguments for using other cloud providers.
+
+(Shoot - [this](/posts/2019/new-blog-2019/) is really out of date now)

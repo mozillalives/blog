@@ -7,6 +7,8 @@ tags:
 layout: layouts/post.njk
 ---
 
+**2021 Update: _This setup didn't pan out. Hugo turned out to be too frustrating to work with and the latest App Engine changes continue to be more and more disappointing. [This is my new setup](/posts/2021/1/aws-amplify/)._**
+
 <p>I decided to start writing again and so I picked up the latest in static site generation, <a href="https://gohugo.io">Hugo</a>, and deployed it all on my favoritest hosting option, <a href="https://cloud.google.com/appengine/">Google App Engine</a>.</p>
 
 <p>Running the site this way is almost straightforward. The only tricky thing is getting the rules right for serving the static files. I’ve been running a static site on App Engine for a while now, but I figured it would be good to take another look at the config to make sure I’m using it well. I found this blog entry on <a href="https://deciphertools.com/blog/google-app-engine-static-sites/">running a static site on Google App Engine</a> and that helped me confirm rules I needed. It also has some good tips on setting up 301 redirects (though I usually just delete my old stuff on refresh) and SSL (something that I didn’t know was super easy to do on App Engine). When I get some time (and can clean up the process more) I’ll write an entry about it.</p>
