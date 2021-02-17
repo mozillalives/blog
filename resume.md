@@ -9,7 +9,7 @@ eleventyNavigation:
 
 # Software Engineer, Quicken Loans
 ## Detroit, MI — Jan 2019 — Present
-Really enjoying working with a great team and with a wonderful group of people helping clients realize their dream of owning their own home.
+Really enjoying working with a wonderful group of people helping clients realize their dream of owning their own home.
 
 
 # Senior Developer, E7 Solutions, LLC
