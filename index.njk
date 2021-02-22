@@ -5,11 +5,14 @@ eleventyNavigation:
   order: 1
 ---
 
-{% set maxPosts = collections.posts.length | min(3) %}
+{% set maxDisplayedPosts = 15 %}
+{% set maxPosts = collections.posts.length | min(maxDisplayedPosts) %}
 <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
 
-{% set postslist = collections.posts | head(-3) %}
+{% set postslist = collections.posts | head(-maxDisplayedPosts) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
 
+{% if collections.posts.length > maxDisplayedPosts %}
 <p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+{% endif %}
